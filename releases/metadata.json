@@ -1,0 +1,49 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "ReactBOM",
+    "description": "Export interactive BOM pcbdata for IBOMReact",
+    "description_full": "KiCad plugin fork derived from InteractiveHtmlBom. Extracts pcbdata (board geometry, footprints, BOM rows) as JSON or LZ-compressed base64 for use with IBOMReact React components.\n\nBased on InteractiveHtmlBom by openscopeproject (MIT).",
+    "identifier": "com.github.peon374.ReactBOM",
+    "type": "plugin",
+    "author": {
+        "name": "David Middleton",
+        "contact": {
+            "web": "https://github.com/peon374/ReactBOM"
+        }
+    },
+    "maintainer": {
+        "name": "David Middleton",
+        "contact": {
+            "web": "https://github.com/peon374/ReactBOM"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "Github": "https://github.com/peon374/ReactBOM",
+        "Upstream": "https://github.com/openscopeproject/InteractiveHtmlBom"
+    },
+    "tags": [
+        "bom",
+        "pcbnew",
+        "react",
+        "assembly",
+        "documentation"
+    ],
+    "keep_on_update": [
+        ".*/config\\.ini",
+        ".*/web/user.*"
+    ],
+    "versions": [
+        {
+            "version": "2.11.2",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "kicad_version_max": "10",
+            "platforms": [
+                "linux",
+                "macos",
+                "windows"
+            ]
+        }
+    ]
+}

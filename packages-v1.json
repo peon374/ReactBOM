@@ -1,0 +1,57 @@
+{
+    "packages": [
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "author": {
+                "contact": {
+                    "web": "https://github.com/peon374/ReactBOM"
+                },
+                "name": "David Middleton"
+            },
+            "description": "Export interactive BOM pcbdata for IBOMReact",
+            "description_full": "KiCad plugin fork derived from InteractiveHtmlBom. Extracts pcbdata (board geometry, footprints, BOM rows) as JSON or LZ-compressed base64 for use with IBOMReact React components.\n\nBased on InteractiveHtmlBom by openscopeproject (MIT).",
+            "identifier": "com.github.peon374.ReactBOM",
+            "keep_on_update": [
+                ".*/config\\.ini",
+                ".*/web/user.*"
+            ],
+            "license": "MIT",
+            "maintainer": {
+                "contact": {
+                    "web": "https://github.com/peon374/ReactBOM"
+                },
+                "name": "David Middleton"
+            },
+            "name": "ReactBOM",
+            "resources": {
+                "Github": "https://github.com/peon374/ReactBOM",
+                "Upstream": "https://github.com/openscopeproject/InteractiveHtmlBom"
+            },
+            "tags": [
+                "bom",
+                "pcbnew",
+                "react",
+                "assembly",
+                "documentation"
+            ],
+            "type": "plugin",
+            "versions": [
+                {
+                    "download_sha256": "c468a050b3c3c4b7b044b1f35a3b9d2275fe1fdbc6e350cb2d46e5558f5b28a0",
+                    "download_size": 147141,
+                    "download_url": "https://raw.githubusercontent.com/peon374/ReactBOM/refs/heads/master/releases/v2.11.2/ReactBOM_v2.11.2_pcm.zip",
+                    "install_size": 721771,
+                    "kicad_version": "6.0",
+                    "kicad_version_max": "10",
+                    "platforms": [
+                        "linux",
+                        "macos",
+                        "windows"
+                    ],
+                    "status": "stable",
+                    "version": "2.11.2"
+                }
+            ]
+        }
+    ]
+}

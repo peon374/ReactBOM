@@ -1,0 +1,16 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository",
+    "maintainer": {
+        "contact": {
+            "web": "https://github.com/peon374/ReactBOM"
+        },
+        "name": "David Middleton"
+    },
+    "name": "ReactBOM repository",
+    "packages": {
+        "sha256": "e1294c234174f8e9e433af2a64be61fd447660674c52525867e7cc5a94b7563d",
+        "update_time_utc": "2026-06-30 05:24:38",
+        "update_timestamp": 1782797078,
+        "url": "https://raw.githubusercontent.com/peon374/ReactBOM/refs/heads/master/packages-v1.json"
+    }
+}

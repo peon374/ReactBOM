@@ -61,9 +61,21 @@ Example destination used elsewhere in this repo: `IBOMReact/public/audio-toy.ibo
 
 ReactBOM can be installed like the upstream KiCad plugin.
 
-### KiCad PCM (if published)
+### KiCad PCM
 
-Use KiCad’s Plugin and Content Manager when a ReactBOM package is available.
+Add this repository URL in **Plugin and Content Manager → Manage repositories → +**:
+
+```
+https://raw.githubusercontent.com/peon374/ReactBOM/refs/heads/master/repository.json
+```
+
+Then install **ReactBOM** from the catalog. The repo serves `packages-v1.json` from the same GitHub path (ReactBOM plugin only).
+
+To rebuild the PCM zip and refresh `repository.json` / `packages-v1.json` after a version bump:
+
+```bash
+python3 update_pcm_repo.py
+```
 
 ### Manual / development install
 
